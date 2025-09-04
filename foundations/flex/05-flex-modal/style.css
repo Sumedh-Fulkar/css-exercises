@@ -67,3 +67,11 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* new updates below */
+.container {
+  display: flex;
+}
+.top {
+  display: flex;
+}
