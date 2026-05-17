@@ -50,9 +50,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.header {
-  margin-bottom: auto;
-}
 .left-links, .right-links {
   display: flex;
   gap: 12px;
@@ -62,13 +59,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: auto;
+  justify-content: center;
+  flex: 1;
+  gap: 16px;
 }
 
-.input {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
 button {
   padding: 4px 12px;
 }
